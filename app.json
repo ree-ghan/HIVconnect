@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "HIVconnect",
+    "slug": "HIVconnect",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.timonnuwa.HIVconnect",
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "expo-notifications": {
+      "icon": "./assets/favicon.png",
+      "color": "#ffffff"
+    },
+    "notification": {
+      "icon": "./assets/adaptive-icon.png",
+      "color": "#ffffff",
+      "iosDisplayInForeground": true,
+      "androidMode": "default",
+      "androidCollapsedTitle": "HIVconnect"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "30e658cb-e6ae-44f1-a9b3-49e3e25390b4"
+      }
+    }
+  }
+}
